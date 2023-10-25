@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>먹어본 빵</title>
+    <style>
+        div{
+            border: solid 0px black;
+        }
+        body{
+
+            background-color: rgb(255, 246, 196);
+            width: 1284px;
+            margin: 0 auto;
+            text-align: center;
+        }       
+        #header{
+            padding: 3%;
+            padding-top: 5%;
+        }
+        #nav{
+            text-align: center;
+            padding: 1%;
+        }
+        #nav h3{
+            display: inline;
+            margin: 50px;
+        }
+        .a_sub{
+            margin: 0px auto;
+            position: relative
+        }
+        .a_sub2{
+            position: absolute;
+            left: 0px;
+            opacity: 0;
+            transition: opacity 0.1s linear;
+        }   
+        .a_sub:hover .a_sub2{
+            display: inline;
+            opacity: 1;
+        }
+        .clear{
+            clear: both;
+        }
+        #section{
+            padding: 2%;
+        }
+        table{
+            border: solid 0px black;
+            text-align: left;
+            padding: 7%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
+        .td1_fontsize{
+            font-size: 20px;
+            font-weight:bold;
+        }
+
+        #footer{
+            text-align: center;
+            background-color: rgb(172, 152, 124);
+            padding: 5%;
+            padding-top: 6%;
+            color: white;
+        }
+        #footer p{
+            font-size: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header"><a href="./index.html"><img src="./menu/logo.png"></a></div>
+    <div id="nav">
+        <h3><a class="a_sub" href="./sub1.html" title="빵 종류"><img src="./menu/sub1.png" class="a_sub1"><img src="./menu/sub1_select.png" class="a_sub2"></a></h3>
+        <h3><a href="./sub2.html" title="먹어본 빵"><img src="./menu/sub2_select.png"></a></h3>
+        <h3><a class="a_sub" href="./sub3.html" title="빵사장 픽"><img src="./menu/sub3.png" class="a_sub1"><img src="./menu/sub3_select.png" class="a_sub2"></a></h3>
+        <h3><a class="a_sub" href="./sub4.html" title="빵린더"><img src="./menu/sub4.png"><img src="./menu/sub4_select.png" class="a_sub2"></a></h3>
+        <h3><a class="a_sub" href="./sub5.html" title="세계의 빵"><img src="./menu/sub5.png"><img src="./menu/sub5_select.png" class="a_sub2"></a></h3>
+    </div>
+    <div class="clear"></div>
+
+    <div id="section">
+            <table style="margin-left: auto; margin-right: auto;">
+                <tr>
+                    <td rowspan="3"><img src="./img/baguette.png" width="300"></td>
+                    <td class="td1_fontsize">바게트</td>
+                </tr>
+                <tr>
+                    <td>★★★☆☆ 3/5</td>
+                </tr>
+                <tr>
+                    <td>갓나온 바게트를 먹으면 겉바속촉이지만, 
+                        대부분의 바게트들은 겉부분이 너무 딱딱해서 먹기 힘들다.
+                        대신 파스타와 함께 먹게되면 겉부분이 부들부들해져서 맛있고 조합도 좋다.
+                    </td>
+                </tr>
+            </table>
+            <hr style="border: solid 1px #352c23;">
+        <table style="margin-left: auto; margin-right: auto; text-align: right;">
+            <tr>
+                <td class="td1_fontsize">크로와상</td>
+                <td rowspan="3"><img src="./img/croissant.png" width="300"></td>
+            </tr>
+            <tr>
+                <td>★★★★☆ 4/5</td>
+            </tr>
+            <tr>
+                <td>파삭파삭한 식감과 쫀득한 식감으로 가볍게 먹기 좋은 빵이다.
+                    빵 사이에 생크림과 과일을 같이 넣어서 먹으면 더 맛있다.
+                    샌드위치 빵으로도 잘 어울린다.
+                </td>
+            </tr>
+        </table>
+        <hr style="border: solid 1px #352c23;">
+        <table style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td rowspan="3"><img src="./img/ciabatta.png" width="300"></td>
+                <td class="td1_fontsize">치아바타</td>
+            </tr>
+            <tr>
+                <td>★★★★★ 5/5</td>
+            </tr>
+            <tr>
+                <td>겉촉속촉으로 쫄깃한 식감을 가졌으며, 여러 토핑을 넣어서 만든다. 
+                    토핑이 추가된 치아바타 중 올리브가 가장 잘 어울렸고,
+                    샌드위치 빵으로도 잘 어울린다. 토핑이 추가되지 않은 기본 빵도 담백하니 맛이 있다.
+                    주로 발사믹 소스와 올리브유를 섞은 소스에 찍어먹거나 한다.
+                </td>
+            </tr>
+        </table>
+        <hr style="border: solid 1px #352c23;">
+        <table style="margin-left: auto; margin-right: auto; text-align: right;">
+            <tr>
+                <td class="td1_fontsize">식빵</td>
+                <td rowspan="3"><img src="./img/bread.png" width="300"></td>
+            </tr>
+            <tr>
+                <td>★★★★☆ 4/5</td>
+            </tr>
+            <tr>
+                <td>빵 중에서 가장 기본이 되는 빵이며, 어디든지 어울리는 빵이다.
+                    특히 갓 나온 식빵은 통식빵으로 찢어먹는 맛이 좋다.
+                </td>
+            </tr>
+        </table>
+        <hr style="border: solid 1px #352c23;">
+        <table style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td rowspan="3"><img src="./img/Focaccia.png" width="300"></td>
+                <td class="td1_fontsize">포카치아</td>
+            </tr>
+            <tr>
+                <td>★★★★★ 5/5</td>
+            </tr>
+            <tr>
+                <td>치아바타와 비슷한 식감과 맛을 가졌으며, 허브와 올리브를 곁들여 먹는 것이 기본적이다.
+                    피자 먹는 것처럼 토핑을 더 추가하여 먹는다. 치아바타랑 비슷하여 좋아한다.
+                </td>
+            </tr>
+        </table>
+        <hr style="border: solid 1px #352c23;">
+        <table style="margin-left: auto; margin-right: auto; text-align: right;">
+            <tr>
+                <td class="td1_fontsize">깜빠뉴</td>
+                <td rowspan="3"><img src="./img/Pain de campagne.png" width="300"></td>
+            </tr>
+            <tr>
+                <td>★★★★☆ 4/5</td>
+            </tr>
+            <tr>
+                <td>바게트와 비슷한 느낌의 겉바속촉이며, 바게트보다 겉이 더 부드럽다. 
+                    주로 호두나 무화과 등을 넣어 식감도 살리고 맛도 더 풍부해진다.
+                    특히 무화과 깜빠뉴가 제일 맛있다.
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="clear"></div>
+
+    <div id="footer">
+        <img src="./menu/footer_logo.png" width="70">
+        <p>coprightⓒ 2023. 장성경. All right reserved.</p>
+    </div>
+    <div class="clear"></div>
+</body>
+</html>

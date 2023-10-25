@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>빵종류</title>
+    <style>
+        div{
+            border: solid 0px black;
+        }
+        body{
+
+            background-color: rgb(255, 246, 196);
+            width: 1284px;
+            margin: 0 auto;
+            text-align: center;
+        }       
+        #header{
+            padding: 3%;
+            padding-top: 5%;
+        }
+        #nav{
+            text-align: center;
+            padding: 1%;
+        }
+        #nav h3{
+            display: inline;
+            margin: 50px;
+        }
+        .a_sub{
+            margin: 0px auto;
+            position: relative
+        }
+        .a_sub2{
+            position: absolute;
+            left: 0px;
+            opacity: 0;
+            transition: opacity 0.1s linear;
+        }   
+        .a_sub:hover .a_sub2{
+            display: inline;
+            opacity: 1;
+        }
+        .clear{
+            clear: both;
+        }
+        #section{
+            padding: 2%;
+        }
+        table{
+            border: solid 0px black;
+            text-align: center;
+        }
+        .td1_fontsize{
+            font-size: 18px;
+            padding-bottom: 10%;
+            font-weight:bold;
+        }
+        #footer{
+            text-align: center;
+            background-color: rgb(172, 152, 124);
+            padding: 5%;
+            padding-top: 6%;
+            color: white;
+        }
+        #footer p{
+            font-size: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header"><a href="./index.html"><img src="./menu/logo.png"></a></div>
+    <div id="nav">
+        <h3><a href="./sub1.html" title="빵 종류"><img src="./menu/sub1_select.png"></a></h3>
+        <h3><a class="a_sub" href="./sub2.html" title="먹어본 빵"><img src="./menu/sub2.png" class="a_sub1"><img src="./menu/sub2_select.png" class="a_sub2"></a></h3>
+        <h3><a class="a_sub" href="./sub3.html" title="빵사장 픽"><img src="./menu/sub3.png" class="a_sub1"><img src="./menu/sub3_select.png" class="a_sub2"></a></h3>
+        <h3><a class="a_sub" href="./sub4.html" title="빵린더"><img src="./menu/sub4.png"><img src="./menu/sub4_select.png" class="a_sub2"></a></h3>
+        <h3><a class="a_sub" href="./sub5.html" title="세계의 빵"><img src="./menu/sub5.png"><img src="./menu/sub5_select.png" class="a_sub2"></a></h3>
+    </div>
+    <div class="clear"></div>
+    <div id="section">
+        <table style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td><img src="./img/baguette.png" width="300"></td>
+                <td><img src="./img/croissant.png" width="300"></td>
+                <td><img src="./img/ciabatta.png" width="350"></td>
+                <td><img src="./img/bread.png" width="250"></td>
+            </tr>
+            <tr>
+                <td class="td1_fontsize">바게트</td>
+                <td class="td1_fontsize">크로와상</td>
+                <td class="td1_fontsize">치아바타</td>
+                <td class="td1_fontsize">식빵</td>
+            </tr>
+            <tr>
+                <td><img src="./img/Focaccia.png" width="300"></td>
+                <td><img src="./img/Pain de campagne.png" width="250"></td>
+                <td><img src="./img/Pain au chocolat.png" width="280"></td>
+                <td><img src="./img/bagel.png" width="200"></td>
+            </tr>
+            <tr>
+                <td class="td1_fontsize">포카치아</td>
+                <td class="td1_fontsize">깜빠뉴</td>
+                <td class="td1_fontsize">뺑오쇼콜라</td>
+                <td class="td1_fontsize">베이글</td>
+            </tr>
+            <tr>
+                <td><img src="./img/pretzel.png" width="250"></td>
+                <td><img src="./img/scone.png" width="250"></td>
+                <td><img src="./img/pandoro.png" width="300"></td>
+                <td><img src="./img/brioche.png" width="250"></td>
+            </tr>
+            <tr>
+                <td class="td1_fontsize">프레첼</td>
+                <td class="td1_fontsize">스콘</td>
+                <td class="td1_fontsize">팡도르</td>
+                <td class="td1_fontsize">브리오슈</td>
+            </tr>
+        </table>
+    </div>
+    <div class="clear"></div>
+    <div id="footer">
+        <img src="./menu/footer_logo.png" width="70">
+        <p>coprightⓒ 2023. 장성경. All right reserved.</p>
+    </div>
+    <div class="clear"></div>
+</body>
+</html>

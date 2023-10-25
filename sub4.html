@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>빵린더</title>
+    <style>
+        div{
+            border: solid 0px black;
+        }
+        body{
+
+            background-color: rgb(255, 246, 196);
+            width: 1284px;
+            margin: 0 auto;
+            text-align: center;
+        }       
+        #header{
+            padding: 3%;
+            padding-top: 5%;
+        }
+        #nav{
+            text-align: center;
+            padding: 1%;
+        }
+        #nav h3{
+            display: inline;
+            margin: 50px;
+        }
+        .a_sub{
+            margin: 0px auto;
+            position: relative
+        }
+        .a_sub2{
+            position: absolute;
+            left: 0px;
+            opacity: 0;
+            transition: opacity 0.1s linear;
+        }   
+        .a_sub:hover .a_sub2{
+            display: inline;
+            opacity: 1;
+        }
+        #section{
+            padding: 5%;
+        }
+        table, td{
+            border-collapse: collapse;
+            text-align: left;
+            width: 1000px;
+            border: solid 1px black;
+            padding: 1%;
+        }
+        tr{
+            vertical-align: top;
+            height: 130px;
+        }
+        .cal_red{
+            color: red;
+        }
+        .cal_blue{
+            color: blue;
+        }
+        .td_bgcolor{
+            background-color: rgb(124, 172, 172);
+        }
+        .clear{
+            clear: both;
+        }
+        #footer{
+            text-align: center;
+            background-color: rgb(172, 152, 124);
+            padding: 5%;
+            padding-top: 6%;
+            color: white;
+        }
+        #footer p{
+            font-size: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header"><a href="./index.html"><img src="./menu/logo.png"></a></div>
+    <div id="nav">
+        <h3><a class="a_sub" href="./sub1.html" title="빵 종류"><img src="./menu/sub1.png" class="a_sub1"><img src="./menu/sub1_select.png" class="a_sub2"></a></h3>
+        <h3><a class="a_sub" href="./sub2.html" title="먹어본 빵"><img src="./menu/sub2.png" class="a_sub1"><img src="./menu/sub2_select.png" class="a_sub2"></a></h3>
+        <h3><a class="a_sub" href="./sub3.html" title="빵사장 픽"><img src="./menu/sub3.png" class="a_sub1"><img src="./menu/sub3_select.png" class="a_sub2"></a></h3>
+        <h3><a href="./sub4.html" title="빵린더"><img src="./menu/sub4_select.png"></a></h3>
+        <h3><a class="a_sub" href="./sub5.html" title="세계의 빵"><img src="./menu/sub5.png"><img src="./menu/sub5_select.png" class="a_sub2"></a></h3>
+    </div>
+    <div class="clear"></div>
+    <br><br><br>
+    <h2>10월</h2>
+    <div id="section">
+        <table style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td class="cal_red"><b>일</b></td>
+                <td><b>월</b></td>
+                <td><b>화</b></td>
+                <td><b>수</b></td>
+                <td><b>목</b></td>
+                <td><b>금</b></td>
+                <td class="cal_blue"><b>토</b></td>
+            </tr>
+            <tr>
+                <td class="cal_red">1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td class="cal_blue">7</td>
+            </tr>
+            <tr>
+                <td class="cal_red">8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td class="cal_blue">14</td>
+            </tr>
+            <tr>
+                <td class="cal_red">15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td class="cal_blue">21</td>
+            </tr>
+            <tr>
+                <td class="cal_red">22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td class="td_bgcolor">28<br><b>대전 빵축제</b></td>
+            </tr>
+            <tr>
+                <td class="td_bgcolor">29<br><b>대전 빵축제</b></td>
+                <td>30</td>
+                <td>31</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <div class="clear"></div>
+    <br><br><br>
+    <div id="footer">
+        <img src="./menu/footer_logo.png" width="70">
+        <p>coprightⓒ 2023. 장성경. All right reserved.</p>
+    </div>
+    <div class="clear"></div>
+</body>
+</html>
